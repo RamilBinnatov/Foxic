@@ -1,0 +1,170 @@
+.my-container{
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none !important;
+}
+
+#header{
+    padding: 15px 0px;
+    position: relative;
+}
+
+#header .middle ul{
+    padding-left: 87px;
+    
+    align-items: center;
+}
+
+#header .middle ul li{
+    margin-right: 36px;
+    margin-top: 10px;
+}
+#header .middle ul .li-style a{
+    transition: .5s ease;
+}
+#header .middle ul .li-style:hover a{
+color: #33cad5;
+
+}
+
+#header .middle ul .active a{
+    color: #8dd379;
+}
+
+#header .middle ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+#header .middle ul li a i{
+    font-size: 14px;
+}
+#header .middle ul li a .up-ico{
+    display: none;
+
+}
+#header .middle ul li:hover .up-ico{
+    display: inline-block;
+}
+
+#header .middle ul li:hover .down-ico{
+    display: none;
+}
+
+#header .right .ico-div i{
+    margin-right: 30px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+
+#header .right .ico-div i:hover{
+    color: #33cad5;
+}
+
+#header .right .number-box{
+    width: 19px;
+    height: 19px;
+    background-color: #33cad5;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#header .right .number-box p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+#header .right .first{
+    position: absolute;
+    top: 52%;
+    left: 83%;
+}
+
+#header .right .second{
+    position: absolute;
+    top: 52%;
+    left: 90.5%;
+}
+#care{
+    
+    
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    
+    
+}
+#care .d-flex .content .slider-img{
+position: absolute;
+z-index: -1;
+
+width: 1519px;
+height: 609px;
+}
+#care .my-container .d-flex .content .text{
+    position: absolute;
+}
+
+#care .my-container{
+    width: 100%;
+    
+}
+
+#care .content .text{
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    
+}
+
+/* #care .content .text{
+    padding-top: 70px;
+    
+} */
+#care .content .text h1{
+    font-size: 70px; 
+    position: relative;
+    left: 70px;
+
+
+}
+#care .content .text h1 span{
+    font-size: 70px;
+    font-weight: 780;
+    color: #33cad5;
+    
+    
+}
+#care .content .text p{
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 70px;
+}
+#care .content .text a{
+    padding: 15px 35px;
+    background-color: #33cad5;
+    color: white;
+    border-radius: 8em;
+    text-transform: uppercase;
+    transition: .5s ease;
+    display: inline-block;
+    /* margin-top: 20px;
+    margin-left: 70px; */
+    position: relative;
+    top: 10px;
+    left: 70px;
+    
+}
+
+#care .content a:hover{
+    background-color: black;
+}
